@@ -16,4 +16,4 @@ The model works by two-three deep learning models built in tensorflow.
 
   1) A generative model that creates a duplicate of the original dataset. This model is designed to minimize the differences in the *statistical* relationships between the two datasets. I'm currently exploring what loss functions best allow this.
   2) An adversarial model designed to see if it can match records back to the original dataset.
-  3) There will be potentially a third model designed to see if it can tell the difference between the two datasets (from a statistical perspective) as well.
+  3) There will be potentially a third model designed to see if it can tell the difference between the two datasets (from a statistical perspective).
